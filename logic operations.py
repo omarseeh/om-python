@@ -18,10 +18,15 @@ print(a, b)
 # print(a==a and a>b) #false
 # print(a<b and b<a) #false
 
-print (a==a or b==b) #true
-print (a<b or b==b) #true
-print (a>b or b==b) #true
-print (a>b or b<a) #false
+# print (a==a or b==b) #true
+# print (a<b or b==b) #true
+# print (a>b or b==b) #true
+# print (a>b or b<a) #false
+
+print(not(a !=8))#false
+print(not a==8)#true
+
+
 
 
 
